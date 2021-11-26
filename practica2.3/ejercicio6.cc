@@ -37,7 +37,7 @@ int main(){
             return EXIT_FAILURE;
         }
 
-        sleep(5);//Dormir hijo (demonio) para que padre acabe antes
+        //sleep(5);//Dormir hijo (demonio) para que padre acabe antes
 
         printf("Hijo\n");
         printf("Pid: %d\n", pid);
@@ -55,5 +55,5 @@ int main(){
         return EXIT_FAILURE;
     }
 
-    return 0;
+    return EXIT_SUCCESS;
 }

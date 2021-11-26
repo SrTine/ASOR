@@ -21,5 +21,5 @@ int main(int argc, char* argv[]) {
 
     printf("El comando terminó de ejecutarse\n");
 
-    return 0;
+    return EXIT_SUCCESS;
 }
