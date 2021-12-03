@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(int argc, char ** argv) {
+int main(int argc, char* argv[]) {
     int pipefd[2];//estructura para guardar dos descriptores de fichero que hacen referencia a los extremos del canal
     /*  pipe[0] referencia al extremo de lectura de la tuberia
         pipefd[1] referencia al extremo de escritura de la tuberia
